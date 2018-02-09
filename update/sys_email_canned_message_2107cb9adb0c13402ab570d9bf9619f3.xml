@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p> </p>
+<p> </p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;">Regards</p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"> </p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"><strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: #222222;">Partner Support Centre</span></strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: black;"><br />Email </span><span style="font-size: 12pt; font-family: Arial, sans-serif, serif, EmojiFont; color: #222222;"><a title="psc&#64;specsavers.com" href="mailto:psc&#64;specsavers.com" target="_blank" rel="nofollow">psc&#64;specsavers.com</a></span></p>]]></body>
+        <group display_value="Partner Support" name="Partner Support">dde8c0ad4f001f0021a168d18110c7f3</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-02-05 12:42:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2107cb9adb0c13402ab570d9bf9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reply</sys_name>
+        <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
+        <sys_update_name>sys_email_canned_message_2107cb9adb0c13402ab570d9bf9619f3</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-02-05 12:42:45</sys_updated_on>
+        <title>Reply</title>
+        <user display_value="Dave Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_email_canned_message>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>PartnerSupport Table activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_spog_partnersupp_x_spog_partnersupport__table_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-02-06 14:55:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b18fe0fe4f44df0021a168d18110c7a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_spog_partnersupp_x_spog_partnersupport__table_activity.fields</sys_name>
+        <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
+        <sys_update_name>sys_properties_b18fe0fe4f44df0021a168d18110c7a7</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-02-06 14:55:57</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,priority,opened_by,work_notes,comments,*Attachments*,*Email*,assignment_group,call_type,caller,category,comments_and_work_notes,sys_created_on,sys_created_by,description,email_address,opened_at,planned_work_date,short_description</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b18fe0fe4f44df0021a168d18110c7a7"/>
+</record_update>

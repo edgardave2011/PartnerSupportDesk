@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Partner Support Centre" name="Partner Support Centre">5b88eb5edb8c13402ab570d9bf9619bd</category>
+        <collection>incident</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_spog_partnersupp.closed.update.attempt</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div><span style="font-family: verdana, geneva;">Request ID ${number} is closed and you can no longer reply to this email.&nbsp;</span><br />
+<div>&nbsp;<span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 11.9999990463257px;">Short Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td>
+</tr>
+</tbody>
+</table>
+<div>&nbsp;</div>
+<div>If you need to contact use please use the below details</div>
+<div>&nbsp;</div>
+</div>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;">Regards</p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"><strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: #222222;">Partner Support Centre</span></strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: black;"><br />Email&nbsp;</span><span style="font-size: 12pt; font-family: Arial, sans-serif, serif, EmojiFont; color: #222222;"><a title="psc@specsavers.com" href="mailto:psc@specsavers.com" target="_blank" rel="nofollow">psc@specsavers.com</a></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>PSC  - Auto reply for Closed tickets</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Auto reply to Closed Partner Support Centre ticket - ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-02-05 15:10:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2278e71edb8c13402ab570d9bf961997</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PSC  - Auto reply for Closed tickets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
+        <sys_update_name>sysevent_email_action_2278e71edb8c13402ab570d9bf961997</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-02-05 15:18:28</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

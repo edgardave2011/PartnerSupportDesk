@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="PartnerSupport Table" max_length="40" name="x_spog_partnersupp_x_spog_partnersupport__table" sizeclass="9" text_index="true" type="collection">
+        <element audit="true" label="Caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Caller Name" max_length="40" name="caller_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Caller Type" mandatory="true" max_length="40" name="caller_type" type="string">
+            <choice>
+                <element label="Store" sequence="0" value="Store"/>
+                <element label="Internal" sequence="1" value="Internal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Call Type" mandatory="true" max_length="40" name="call_type" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="Email"/>
+                <element label="Telephone" sequence="1" value="Telephone"/>
+                <element label="Forum Boards" sequence="2" value="Forum Boards"/>
+                <element label="SMS" sequence="3" value="SMS"/>
+                <element label="WhatsApp" sequence="4" value="WhatsApp"/>
+                <element label="Yammer" sequence="5" value="Yammer"/>
+                <element label="Self Service" sequence="6" value="Self Service"/>
+                <element label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Business Development" value="Business Development"/>
+                <element label="Compliance Diary" value="Compliance Diary"/>
+                <element label="Domiciliary" value="Domiciliary"/>
+                <element label="FCR" value="FCR"/>
+                <element label="Find My Shift" value="Find My Shift"/>
+                <element label="For Information Only" value="For Information Only"/>
+                <element label="Health &amp; Safety" value="Health &amp; Safety"/>
+                <element label="Hearcare" value="Hearcare"/>
+                <element label="Hearcare" value="Hearcare"/>
+                <element label="iLearn" value="iLearn"/>
+                <element label="IT" value="IT"/>
+                <element label="Legal" value="Legal"/>
+                <element label="Management Info" value="Management Info"/>
+                <element label="Marketing" value="Marketing"/>
+                <element label="NHS" value="NHS"/>
+                <element label="Online Appointments" value="Online Appointments"/>
+                <element label="Opening Hours" value="Opening Hours"/>
+                <element label="Payroll/HR" value="Payroll/HR"/>
+                <element label="Procurement" value="Procurement"/>
+                <element label="Product" value="Product"/>
+                <element label="PSC" value="PSC"/>
+                <element label="Quidini" value="Quidini"/>
+                <element label="Warehouse" value="Warehouse"/>
+            </choice>
+        </element>
+        <element audit="true" label="Inbound Email Address" max_length="40" name="email_address" type="email"/>
+        <element audit="true" label="Planned Work Date" max_length="40" name="planned_work_date" type="glide_date"/>
+        <index name="index">
+            <element name="caller"/>
+        </index>
+    </element>
+</database>
