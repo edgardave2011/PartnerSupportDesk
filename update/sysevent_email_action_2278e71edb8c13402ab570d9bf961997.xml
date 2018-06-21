@@ -7,13 +7,13 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Partner Support Centre" name="Partner Support Centre">5b88eb5edb8c13402ab570d9bf9619bd</category>
-        <collection>incident</collection>
+        <collection>x_spog_partnersupp_x_spog_partnersupport__table</collection>
         <condition/>
         <content_type>text/html</content_type>
         <description/>
         <event_name>x_spog_partnersupp.closed.update.attempt</event_name>
-        <event_parm_1>false</event_parm_1>
-        <event_parm_2>true</event_parm_2>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
@@ -40,7 +40,8 @@
 </div>
 <p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;">Regards</p>
 <p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;">&nbsp;</p>
-<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"><strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: #222222;">Partner Support Centre</span></strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: black;"><br />Email&nbsp;</span><span style="font-size: 12pt; font-family: Arial, sans-serif, serif, EmojiFont; color: #222222;"><a title="psc@specsavers.com" href="mailto:psc@specsavers.com" target="_blank" rel="nofollow">psc@specsavers.com</a></span></p>]]></message_html>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"><strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: #222222;">Partner Support&nbsp;Desk</span></strong><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: black;"><br />Email&nbsp;</span><span style="font-size: 12pt; font-family: Arial, sans-serif, serif, EmojiFont; color: #222222;"><a title="psc@specsavers.com" href="mailto:psc@specsavers.com" target="_blank" rel="nofollow">psc@specsavers.com</a></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 15px; font-family: Calibri, sans-serif; color: #212121;"><span style="font-size: 10pt; font-family: Tahoma, sans-serif, serif, EmojiFont; color: black;">Telephone&nbsp;</span><span style="font-size: 12pt; font-family: Arial, sans-serif, serif, EmojiFont; color: #222222;">0845 241 0200</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>PSC  - Auto reply for Closed tickets</name>
@@ -63,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2278e71edb8c13402ab570d9bf961997</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>PSC  - Auto reply for Closed tickets</sys_name>
         <sys_overrides/>
         <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
@@ -72,7 +73,7 @@
         <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
         <sys_update_name>sysevent_email_action_2278e71edb8c13402ab570d9bf961997</sys_update_name>
         <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-02-05 15:18:28</sys_updated_on>
+        <sys_updated_on>2018-06-21 14:47:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

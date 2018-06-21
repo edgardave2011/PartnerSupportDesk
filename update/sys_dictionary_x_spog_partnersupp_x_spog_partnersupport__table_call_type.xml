@@ -48,16 +48,16 @@
         <sys_created_by>david.edgar</sys_created_by>
         <sys_created_on>2018-02-02 14:51:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>de08086d4f001f0021a168d18110c7e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_id>263128f74f8053c419baf9b7c210c758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Call Type</sys_name>
         <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
         <sys_update_name>sys_dictionary_x_spog_partnersupp_x_spog_partnersupport__table_call_type</sys_update_name>
-        <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-02-06 14:48:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-09 16:27:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

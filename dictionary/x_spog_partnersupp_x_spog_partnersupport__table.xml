@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="task" label="PartnerSupport Table" max_length="40" name="x_spog_partnersupp_x_spog_partnersupport__table" sizeclass="9" text_index="true" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="PartnerSupport Table" max_length="40" name="x_spog_partnersupp_x_spog_partnersupport__table" sizeclass="2" text_index="true" type="collection">
         <element audit="true" label="Caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Caller Name" max_length="40" name="caller_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Caller Type" mandatory="true" max_length="40" name="caller_type" type="string">
@@ -24,7 +24,9 @@
         <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>
                 <element label="Business Development" value="Business Development"/>
+                <element label="Business Emergency" value="Business Emergency"/>
                 <element label="Compliance Diary" value="Compliance Diary"/>
+                <element label="Customer Care" value="Customer Care"/>
                 <element label="Domiciliary" value="Domiciliary"/>
                 <element label="FCR" value="FCR"/>
                 <element label="Find My Shift" value="Find My Shift"/>
@@ -33,6 +35,7 @@
                 <element label="Hearcare" value="Hearcare"/>
                 <element label="Hearcare" value="Hearcare"/>
                 <element label="iLearn" value="iLearn"/>
+                <element label="Insurance" value="Insurance"/>
                 <element label="IT" value="IT"/>
                 <element label="Legal" value="Legal"/>
                 <element label="Management Info" value="Management Info"/>
@@ -40,18 +43,24 @@
                 <element label="NHS" value="NHS"/>
                 <element label="Online Appointments" value="Online Appointments"/>
                 <element label="Opening Hours" value="Opening Hours"/>
+                <element label="Partner Visit" value="Partner Visit"/>
                 <element label="Payroll/HR" value="Payroll/HR"/>
                 <element label="Procurement" value="Procurement"/>
                 <element label="Product" value="Product"/>
                 <element label="PSC" value="PSC"/>
-                <element label="Quidini" value="Quidini"/>
+                <element label="Qudini" value="Qudini"/>
                 <element label="Warehouse" value="Warehouse"/>
             </choice>
         </element>
         <element audit="true" label="Inbound Email Address" max_length="40" name="email_address" type="email"/>
         <element audit="true" label="Planned Work Date" max_length="40" name="planned_work_date" type="glide_date"/>
+        <element label="Resolved At" max_length="40" name="resolved_at" read_only="true" type="glide_date_time"/>
+        <element label="Resolved By" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="caller"/>
+        </index>
+        <index name="index2">
+            <element name="resolved_by"/>
         </index>
     </element>
 </database>

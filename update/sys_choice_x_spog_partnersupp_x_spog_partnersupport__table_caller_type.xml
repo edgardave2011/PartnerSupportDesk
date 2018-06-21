@@ -10,14 +10,14 @@
             <language>en</language>
             <name>x_spog_partnersupp_x_spog_partnersupport__table</name>
             <sequence>0</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2018-02-02 14:53:55</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-09 16:27:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c9b8406d4f001f0021a168d18110c78a</sys_id>
+            <sys_id>be3128f74f8053c419baf9b7c210c76e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2018-02-02 14:53:55</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-09 16:27:24</sys_updated_on>
             <value>Store</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -29,24 +29,24 @@
             <language>en</language>
             <name>x_spog_partnersupp_x_spog_partnersupport__table</name>
             <sequence>1</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2018-02-02 14:53:55</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-09 16:27:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0db8406d4f001f0021a168d18110c78c</sys_id>
+            <sys_id>fe3128f74f8053c419baf9b7c210c76e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2018-02-02 14:53:55</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-09 16:27:24</sys_updated_on>
             <value>Internal</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>caller_type</element>
             <name>x_spog_partnersupp_x_spog_partnersupport__table</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2018-02-02 14:53:55</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-09 16:27:24</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>c5b8406d4f001f0021a168d18110c78c</sys_id>
+            <sys_id>f23128f74f8053c419baf9b7c210c76f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>caller_type</sys_name>
             <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
@@ -54,8 +54,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
             <sys_update_name>sys_choice_x_spog_partnersupp_x_spog_partnersupport__table_caller_type</sys_update_name>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2018-02-02 14:53:55</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-09 16:27:24</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

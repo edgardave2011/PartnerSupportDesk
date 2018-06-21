@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>PartnerSupport Table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>PartnerSupport Table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">be452072372331004ed29c9953990eb2</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-02-09 16:27:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a3128f74f8053c419baf9b7c210c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PartnerSupport Table</sys_name>
+        <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
+        <sys_update_name>sys_wizard_answer_6a3128f74f8053c419baf9b7c210c736</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-09 16:27:23</sys_updated_on>
+        <table/>
+        <target_url>x_spog_partnersupp_x_spog_partnersupport__table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

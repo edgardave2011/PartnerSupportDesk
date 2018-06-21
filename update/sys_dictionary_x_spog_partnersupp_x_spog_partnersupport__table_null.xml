@@ -46,23 +46,23 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>9</sizeclass>
+        <sizeclass>2</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>david.edgar</sys_created_by>
         <sys_created_on>2018-02-02 14:36:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e0d404e94f001f0021a168d18110c732</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>ee3128f74f8053c419baf9b7c210c737</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_spog_partnersupp_x_spog_partnersupport__table</sys_name>
         <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
-        <sys_update_name>sys_dictionary_x_spog_partnersupp_x_spog_partnersupport__table_null</sys_update_name>
-        <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-02-06 17:03:14</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_spog_partnersupp_x_spog_partnersupport__table_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-09 16:27:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>
