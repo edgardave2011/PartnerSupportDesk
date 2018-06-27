@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Partner Support Centre" name="Partner Support Centre">5b88eb5edb8c13402ab570d9bf9619bd</category>
+        <collection>incident</collection>
+        <condition table="incident">stateCHANGESFROM1^ORstateCHANGESFROM2^ORstateCHANGESFROM3^ORstateCHANGESFROM4^ORstateCHANGESFROM-10^stateCHANGESTO6^ORstateCHANGESTO-20^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="1"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="true" value="2"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="true" value="3"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="true" value="4"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="true" value="-10"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="-20"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>accenture.resolution.breach</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">Dear Partner,<br /> <br /> </span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">Request ID <span style="font-family: 'Times New Roman', serif; font-size: 18px;">${number}</span> has been resolved. Details of the request are shown below:</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<table style="height: 100px; border-color: #b3afaf;" border="#c2bebe" width="850" cellpadding="4">
+<tbody>
+<tr>
+<td>${description}</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">If you have any further enquires relating to this request reply directly to this email, or contact us on the details below quoting request ID ${number}.<br /></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">&nbsp;</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">&nbsp;</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">Kind regards,</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; color: black;">&nbsp;</span></p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 10.0pt; font-family: 'Tahoma',sans-serif; color: #222222;">Partner Support&nbsp;Desk</span></strong><span style="font-size: 10.0pt; font-family: 'Tahoma',sans-serif; color: black;"><br /> Email&nbsp;</span><span style="color: blue; text-decoration: underline;"><span style="font-family: 'Arial',sans-serif;"><a style="color: blue; text-decoration: underline;" title="psc@specsavers.com" href="mailto:psc@specsavers.com" target="_blank">psc@specsavers.com</a></span></span></p>
+<p style="margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Tahoma',sans-serif; color: black;">Telephone&nbsp;</span><span style="font-family: 'Arial',sans-serif; color: #222222;">0845 241 0200</span></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>PSD Resolved</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>caller_id</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>PSD Resolved Request</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-06-27 09:31:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6dba9cc4fc3970421a168d18110c719</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>PSD Resolved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PartnerSupport" source="x_spog_partnersupp">8cd40c694f001f0021a168d18110c735</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PartnerSupport">8cd40c694f001f0021a168d18110c735</sys_scope>
+        <sys_update_name>sysevent_email_action_c6dba9cc4fc3970421a168d18110c719</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-06-27 09:44:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

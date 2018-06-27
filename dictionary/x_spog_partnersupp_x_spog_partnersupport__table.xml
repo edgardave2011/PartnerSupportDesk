@@ -23,33 +23,34 @@
         </element>
         <element attributes="edge_encryption_enabled=true" audit="true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>
-                <element label="Business Development" value="Business Development"/>
-                <element label="Business Emergency" value="Business Emergency"/>
-                <element label="Compliance Diary" value="Compliance Diary"/>
-                <element label="Customer Care" value="Customer Care"/>
-                <element label="Domiciliary" value="Domiciliary"/>
-                <element label="FCR" value="FCR"/>
-                <element label="Find My Shift" value="Find My Shift"/>
-                <element label="For Information Only" value="For Information Only"/>
-                <element label="Health &amp; Safety" value="Health &amp; Safety"/>
                 <element label="Hearcare" value="Hearcare"/>
-                <element label="Hearcare" value="Hearcare"/>
-                <element label="iLearn" value="iLearn"/>
-                <element label="Insurance" value="Insurance"/>
-                <element label="IT" value="IT"/>
-                <element label="Legal" value="Legal"/>
-                <element label="Management Info" value="Management Info"/>
-                <element label="Marketing" value="Marketing"/>
-                <element label="NHS" value="NHS"/>
-                <element label="Online Appointments" value="Online Appointments"/>
-                <element label="Opening Hours" value="Opening Hours"/>
-                <element label="Partner Visit" value="Partner Visit"/>
-                <element label="Payroll/HR" value="Payroll/HR"/>
-                <element label="Procurement" value="Procurement"/>
-                <element label="Product" value="Product"/>
-                <element label="PSC" value="PSC"/>
-                <element label="Qudini" value="Qudini"/>
-                <element label="Warehouse" value="Warehouse"/>
+                <element label="Business Development" sequence="0" value="Business Development"/>
+                <element label="Business Emergency" sequence="1" value="Business Emergency"/>
+                <element label="Compliance Diary" sequence="2" value="Compliance Diary"/>
+                <element label="Customer Care" sequence="3" value="Customer Care"/>
+                <element label="Domiciliary" sequence="4" value="Domiciliary"/>
+                <element label="FCR" sequence="5" value="FCR"/>
+                <element label="Find My Shift" sequence="6" value="Find My Shift"/>
+                <element label="For Information Only" sequence="7" value="For Information Only"/>
+                <element label="Health &amp; Safety" sequence="8" value="Health &amp; Safety"/>
+                <element label="Hearcare" sequence="9" value="Hearcare"/>
+                <element label="iLearn" sequence="10" value="iLearn"/>
+                <element label="Insurance" sequence="11" value="Insurance"/>
+                <element label="IT" sequence="12" value="IT"/>
+                <element label="Legal" sequence="13" value="Legal"/>
+                <element label="Management Info" sequence="14" value="Management Info"/>
+                <element label="Marketing" sequence="15" value="Marketing"/>
+                <element label="NHS" sequence="16" value="NHS"/>
+                <element label="Online Appointments" sequence="17" value="Online Appointments"/>
+                <element label="Opening Hours" sequence="18" value="Opening Hours"/>
+                <element label="Partner Visit" sequence="19" value="Partner Visit"/>
+                <element label="Payroll/HR" sequence="20" value="Payroll/HR"/>
+                <element label="Procurement" sequence="21" value="Procurement"/>
+                <element label="Product" sequence="22" value="Product"/>
+                <element label="PSC" sequence="23" value="PSC"/>
+                <element label="Qudini" sequence="24" value="Qudini"/>
+                <element label="Warehouse" sequence="25" value="Warehouse"/>
+                <element label="Other" sequence="26" value="Other"/>
             </choice>
         </element>
         <element audit="true" label="Inbound Email Address" max_length="40" name="email_address" type="email"/>
